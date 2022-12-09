@@ -1,0 +1,83 @@
+:root{
+    --color6: #5a6a90;
+    --color5: #9096b8;
+    --color4: #b6becb;
+    --color3: #c7d3d6;
+    --color2: #e5e0ea;
+    --color1: #f3f3f3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;    
+}
+
+body {
+    background-color: var(--color6);
+    margin: 0;
+    padding: 0;    
+}
+
+main {
+    background-color: var(--color4);
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 20px;    
+}
+
+.titulo {
+    color: var(--color6);
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.input-tarefa {
+    border-radius: 4px;
+    border-color: var(--color6);
+    height: 30px;     
+}
+
+.botao {
+    background-color: var(--color6);
+    border: 2px solid var(--color5);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;      
+}
+
+.botao:hover {
+    background-color: var(--color5);
+}
+
+
+.tarefas{
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 20px; 
+}
+
+.apagar{
+    background-color: var(--color6);
+    border: 2px solid var(--color5);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;  
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+
+.apagar:hover {
+    background-color: var(--color5);
+}
